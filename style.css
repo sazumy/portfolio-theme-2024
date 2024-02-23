@@ -2,9 +2,11 @@
 Theme Name: Azumi's Portfolio Theme
 */
 
-@import "./css/remedy.css";
-@import "./css/variables.css";
-@import "./css/base.css";
+@import "./css/foundation/variables.css";
+@import "./css/foundation/remedy.css";
+@import "./css/foundation/base.css";
+
+@import "./css/objects/project.css";
 
 .wrapper {
   align-items: center;
