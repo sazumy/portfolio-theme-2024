@@ -1,0 +1,46 @@
+/* Colors */
+/* cssにはlighten() darken()などのプロパティはないので、ここ（http://scg.ar-ch.org/）で色を作って直接指定している */
+:root {
+  --color-primary: #DE879E;
+  --color-primary-light: #eec3cf; /* lighten(#DE879E, 15%) */
+  --color-secondary: #FCEDD5;
+  --color-base: #433333;
+  --color-base-lightest: #fbfafa; /* lighten(#433333, 75%) */
+  --color-text: var(--color-base);
+  --color-white: #fff;
+}
+
+/* Spacing */
+:root {
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+}
+
+/* BrakePoints */
+/* 2024年1月現在、ブレイクポイントに変数は使えない模様。なので、ここの数字を手打ちで使い回す */
+:root {
+  --sp: 576px;
+  --tablet: 768px;
+  --pc: 992px;
+}
+
+/* FontSize */
+:root {
+  --base-font-size: 16;
+  --font-size-xs: calc(1rem * 12 / var(--base-font-size));
+  --font-size-sm: calc(1rem * 14 / var(--base-font-size));
+  --font-size-normal: 1rem;
+  --font-size-md: calc(1rem * 18 / var(--base-font-size));
+  --font-size-lg: calc(1rem * 24 / var(--base-font-size));
+  --font-size-xl: calc(1rem * 32 / var(--base-font-size));
+  --font-size-xxl: calc(1rem * 40 / var(--base-font-size));
+}
+
+/* ぐにゃぐにゃした丸い円 */
+:root {
+  --rough-border-radius: 41% 59% 58% 42% / 41% 43% 57% 59%;
+}
