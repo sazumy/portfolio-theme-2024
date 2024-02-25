@@ -2,9 +2,9 @@
 /* cssにはlighten() darken()などのプロパティはないので、ここ（http://scg.ar-ch.org/）で色を作って直接指定している */
 :root {
   --color-primary: #DE879E;
-  --color-primary-light: #eec3cf; /* lighten(#DE879E, 15%) */
+  --color-primary-light: #C1EAED;
   --color-secondary: #FCEDD5;
-  --color-base: #433333;
+  --color-base: #333;
   --color-base-lightest: #fbfafa; /* lighten(#433333, 75%) */
   --color-text: var(--color-base);
   --color-white: #fff;
@@ -35,9 +35,9 @@
   --font-size-sm: calc(1rem * 14 / var(--base-font-size));
   --font-size-normal: 1rem;
   --font-size-md: calc(1rem * 18 / var(--base-font-size));
-  --font-size-lg: calc(1rem * 28 / var(--base-font-size));
-  --font-size-xl: calc(1rem * 32 / var(--base-font-size));
-  --font-size-xxl: calc(1rem * 40 / var(--base-font-size));
+  --font-size-lg: calc(1rem * 24 / var(--base-font-size));
+  --font-size-xl: calc(1rem * 40 / var(--base-font-size));
+  --font-size-xxl: calc(1rem * 64 / var(--base-font-size));
 }
 
 /* ぐにゃぐにゃした丸い円 */

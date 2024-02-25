@@ -23,6 +23,13 @@
   }
 }
 
+.keyvis {
+  margin-bottom: var(--space-lg);
+  @media screen and (min-width: 992px) {
+    margin-bottom: var(--space-xl);
+  }
+}
+
 .gnav {
   align-items: center;
   display: flex;

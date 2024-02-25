@@ -1,4 +1,5 @@
 :root {
+  color: var(--color-text);
   font-family: roboto, noto-sans, sans-serif;
   font-size: 1rem;
   line-height: 1;
@@ -25,7 +26,16 @@ h2, .h2 {
   font-family: roboto, ta-kotodama-r;
   font-size: var(--font-size-lg);
   font-weight: 200;
+  line-height: .1;
+  text-align: center;
   @media screen and (min-width: 992px) {
     font-size: var(--font-size-xl);
+  }
+  .en {
+    color: var(--color-primary-light);
+    font-size: var(--font-size-xl);
+    @media screen and (min-width: 992px) {
+      font-size: var(--font-size-xxl);
+    }
   }
 }
