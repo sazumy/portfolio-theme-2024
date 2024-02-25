@@ -1,4 +1,34 @@
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.content {
+  display: flex;
+}
+
+.header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .gnav {
   align-items: center;
   display: flex;
+  
+  .gnav__list {
+    display: flex;
+    gap: 16px;
+    .gnav__list--item {
+      font-weight: 200;
+    }
+  }
 }
