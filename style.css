@@ -6,6 +6,8 @@ Theme Name: Azumi's Portfolio Theme
 @import "./css/foundation/remedy.css";
 @import "./css/foundation/base.css";
 
+@import "./css/layout/layout.css";
+
 @import "./css/objects/project.css";
 
 .wrapper {
