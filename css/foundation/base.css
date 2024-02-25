@@ -14,12 +14,18 @@ li {
 }
 
 h1, .h1 {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   font-weight: 200;
+  @media screen and (min-width: 992px) {
+    font-size: var(--font-size-xl);
+  }
 }
 
 h2, .h2 {
-  font-family: ta-kotodama-r, roboto;
-  font-size: var(--font-size-xl);
+  font-family: roboto, ta-kotodama-r;
+  font-size: var(--font-size-lg);
   font-weight: 200;
+  @media screen and (min-width: 992px) {
+    font-size: var(--font-size-xl);
+  }
 }
