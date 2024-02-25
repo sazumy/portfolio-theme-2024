@@ -1,9 +1,6 @@
-.wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.button-wrap {
+  text-align: center;
 }
-
 .container {
   width: 100%;
   @media screen and (min-width: 992px) {
@@ -13,7 +10,25 @@
 }
 
 .content {
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 992px) {
+    flex-direction: row;
+  }
+}
+
+.gnav {
+  align-items: center;
+  display: flex;
+  
+  .gnav__list {
+    display: flex;
+    gap: 16px;
+    .gnav__list--item {
+      font-weight: 200;
+    }
+  }
 }
 
 .header {
@@ -30,15 +45,10 @@
   }
 }
 
-.gnav {
+
+
+.wrapper {
   align-items: center;
   display: flex;
-  
-  .gnav__list {
-    display: flex;
-    gap: 16px;
-    .gnav__list--item {
-      font-weight: 200;
-    }
-  }
+  flex-direction: column;
 }

@@ -8,4 +8,5 @@ Theme Name: Azumi's Portfolio Theme
 
 @import "./css/layout/layout.css";
 
+@import "./css/objects/component.css";
 @import "./css/objects/project.css";
