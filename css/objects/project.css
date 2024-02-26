@@ -1,3 +1,13 @@
+.about {
+  .portlait {
+    height: 200px;
+    img {
+      filter: drop-shadow(12px 0 0 var(--color-primary-lightest));
+      max-height: 100%;
+    }
+  }
+}
+
 .keyvis {
   position: relative;
   background-image: url("../../img/keyvis.png");

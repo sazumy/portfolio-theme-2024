@@ -3,6 +3,7 @@
 :root {
   --color-primary: #DE879E;
   --color-primary-light: #C1EAED;
+  --color-primary-lightest: #E7FEFF;
   --color-secondary: #FCEDD5;
   --color-base: #333;
   --color-base-lightest: #fbfafa; /* lighten(#433333, 75%) */
